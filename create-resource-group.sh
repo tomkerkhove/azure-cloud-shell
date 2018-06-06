@@ -1,5 +1,5 @@
 #!/bin/bash
-$subscriptionName=$1
+subscriptionName=1
 $resourceGroupName=$2
 $location=$3
 
