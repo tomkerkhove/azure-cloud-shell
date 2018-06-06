@@ -1,11 +1,7 @@
 #!/bin/bash
-subscriptionName=1
-$resourceGroupName=$2
-$location=$3
+echo "Subscription Name: $1"
+echo "Resource Group Name: $2"
+echo "Resource Group Location: $3"
 
-echo "Subscription Name: $subscriptionName"
-echo "Resource Group Name: $resourceGroupName"
-echo "Resource Group Location: $location"
-
-az account set -s $subscriptionName
-az group create --name $resourceGroupName --location $location
+az account set -s $1
+az group create --name $2 --location $3
