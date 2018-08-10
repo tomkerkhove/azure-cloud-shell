@@ -1,5 +1,5 @@
 {
-    "Name": "Manage Resource Locks",
+    "Name": "Resource Lock Contributor",
     "IsCustom": true,
     "Description": "Can manage resource locks",
     "Actions": [

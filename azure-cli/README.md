@@ -1,7 +1,7 @@
 # Azure CLI
 Scripts to use in the Azure CLI
 
-## Using scripts in Azure CLI
+## Using scripts in Azure Cloud Shell
 
 1. Download the raw script via `wget --no-cache <uri>`
 2. Run script `bash ./create-resource-group.sh 'Tom Kerkhove' 'demo' 'westeurope'`
