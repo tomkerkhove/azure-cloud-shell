@@ -1,0 +1,14 @@
+{
+    "Name": "Manage Resource Locks",
+    "IsCustom": true,
+    "Description": "Can manage resource locks",
+    "Actions": [
+        "Microsoft.Authorization/locks/*"
+    ],
+    "NotActions": [],
+    "DataActions": [],
+    "NotDataActions": [],
+    "AssignableScopes": [
+        "<your scopes>"
+    ]
+}

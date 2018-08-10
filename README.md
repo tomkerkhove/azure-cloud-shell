@@ -1,12 +1,6 @@
-# Azure Cloud Shell
-Scripts to use in the Azure Cloud Shell
+# Azure Tooling
+A grouping of small utilities that I use.
 
-## Using scripts in Azure Cloud Shell
-
-1. Download the raw script via `wget --no-cache <uri>`
-2. Run script `bash ./create-resource-group.sh 'Tom Kerkhove' 'demo' 'westeurope'`
-
-## Documentation
-
-- **create-resource-group.sh** - Creates a new resource group in a specific subscription.
-   - _Example:_ `create-resource-group.sh '<subscription-name>' '<resource-group-name>' '<location>'`
+See:
+- [Azure CLI](azure-cli)
+- [Role-based Access](RBAC)
